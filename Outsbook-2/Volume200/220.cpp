@@ -10,3 +10,4 @@ int main()
 	int ans2 = (y1 + y2) / 2;
 	cout << ans1 << " " << ans2;
 }
+
