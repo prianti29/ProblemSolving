@@ -29,6 +29,7 @@ int main()
     long long s10=(s9%mod)*9879;
     //cout<<s10<<endl;
     long long  s11=s10-9;
+    
     ostringstream os;
     os << fixed<<setprecision(0)<<s11;
     std::string str = os.str();
