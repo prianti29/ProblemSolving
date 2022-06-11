@@ -5,6 +5,7 @@ int main()
 	long long n, sum = 0;
 	while(cin >> n)
 	{
+		long long sum = 0;
 		long long ans1 = n * n;
 		long long temp = ans1;
 		
@@ -19,5 +20,8 @@ int main()
 		long long ans4 = ans3 * ans3;
 		cout  << ans4 % 10 << endl;
 		
+		
 	}
+	return 0;
 }
+
